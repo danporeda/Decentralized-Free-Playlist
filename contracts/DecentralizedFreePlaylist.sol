@@ -11,7 +11,7 @@ interface IPlayToken is IERC20 {
     function balanceOf(address account) external view returns (uint256);
 }
 
-interface IMyNFT {
+interface IMusicToken {
     function safeMint(address to, uint256 tokenId, string memory uri) external;
 }
 
